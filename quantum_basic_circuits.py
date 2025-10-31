@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 qc = QuantumCircuit(1,1)
 
 # 2. Add a Hadamard gate to create superposition
-qc.h(0)
+qc.h(0) # This puts qubit 0 into superposition state (|0> + |1>)/√2
 
 # 3. Measure the cubit
 qc.measure(0,0)
