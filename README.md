@@ -1,4 +1,4 @@
-# quantum-basic-circuits (Quantum Basic Circuits)
+# Quantum Basic Circuits
 
 ## Goal
 
@@ -20,4 +20,8 @@ To create, simulate, and visualise a basic quantum circuit using **Qiskit**, the
 Required: **Python 3.9+**, with dependencies:
 
 ```bash
-pip install qiskit qiskit-aer matplotlib pylatexenc
+pip3 install qiskit qiskit-aer matplotlib pylatexenc
+
+## Run
+```bash
+python3 quantum_basic_circuits.py

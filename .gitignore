@@ -1,0 +1,82 @@
+# =======================================
+# Quantum Project .gitignore
+# For Qiskit, Cirq, PennyLane, Braket, etc.
+# =======================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Dependency / Package files ---
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.manifest
+*.spec
+
+# --- Data and results ---
+# Ignore large datasets and generated simulation outputs
+data/
+results/
+*.csv
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.log
+
+# --- IDE / Editor configs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Quantum simulation artifacts ---
+# (e.g., Qiskit Aer, Cirq simulation cache, etc.)
+*.qasm
+*.out
+*.cache/
+.cache/
+__results__/
+
+# --- AWS Braket / IBM Quantum credentials ---
+.aws/
+*.json
+*.yaml
+*.yml
+token.json
+credentials.json
+
+# --- Optional: documentation / build artifacts ---
+docs/_build/
+docs/build/
+*.pdf
+
+# --- Misc ---
+*.bak
+*.tmp
+*.old
